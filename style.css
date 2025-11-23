@@ -1,0 +1,30 @@
+.json-tree {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.json-array {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.key {
+    font-weight: bold;
+    color: #333;
+}
+
+.value.string {
+    color: green;
+}
+
+.value.number {
+    color: blue;
+}
+
+.value.boolean {
+    color: red;
+}
+
+.value.null {
+    color: gray;
+}
